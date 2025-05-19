@@ -4,6 +4,7 @@ import {
 
 import Login from "../pages/Login"
 import Main from "../Layout/Main";
+import OfficeAssistantSystem from "../pages/OfficeAssistantSystem";
 
 
 export const router = createBrowserRouter([
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Login></Login>
             },
+            {
+                path: '/officeAssistant',
+                element: <OfficeAssistantSystem></OfficeAssistantSystem>
+            }
             
         ],
     },
