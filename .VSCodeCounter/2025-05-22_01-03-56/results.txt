@@ -1,0 +1,41 @@
+Date : 2025-05-22 01:03:56
+Directory : d:\Master of Software Engineering\Group Project\FSES-frontend\src
+Total : 9 files,  621 codes, 31 comments, 57 blanks, all 709 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |          7 |        615 |         26 |         55 |        696 |
+| CSS            |          1 |          5 |          5 |          2 |         12 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                 |          9 |        621 |         31 |         57 |        709 |
+| . (Files)                                                                                         |          3 |         30 |          8 |          8 |         46 |
+| Layout                                                                                            |          1 |         11 |          0 |          2 |         13 |
+| Router                                                                                            |          1 |         22 |          0 |          4 |         26 |
+| assets                                                                                            |          1 |          1 |          0 |          0 |          1 |
+| components                                                                                        |          1 |         11 |          0 |          2 |         13 |
+| pages                                                                                             |          2 |        546 |         23 |         41 |        610 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                          | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\App.jsx                         | JavaScript JSX |         10 |          2 |          4 |         16 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\Layout\Main.jsx                 | JavaScript JSX |         11 |          0 |          2 |         13 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\Router\Routes.jsx               | JavaScript JSX |         22 |          0 |          4 |         26 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\assets\react.svg                | XML            |          1 |          0 |          0 |          1 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\components\Footer.jsx           | JavaScript JSX |         11 |          0 |          2 |         13 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\index.css                       | CSS            |          5 |          5 |          2 |         12 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\main.jsx                        | JavaScript JSX |         15 |          1 |          2 |         18 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\pages\Login.jsx                 | JavaScript JSX |         82 |         17 |          8 |        107 |
+| d:\Master of Software Engineering\Group Project\FSES-frontend\src\pages\OfficeAssistantSystem.jsx | JavaScript JSX |        464 |          6 |         33 |        503 |
+| Total                                                                                             |                |        621 |         31 |         57 |        709 |
++---------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

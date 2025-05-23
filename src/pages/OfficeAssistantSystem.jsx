@@ -46,7 +46,7 @@ const OfficeAssistantSystem = () => {
 
   const departments = ['Computer Science', 'Engineering', 'Mathematics', 'Physics', 'Chemistry'];
   const programmes = ['Bachelor of Computer Science', 'Master of Engineering', 'Master of Science', 'PhD'];
-  const evaluationTypes = ['Final Year Project', 'Thesis Defense', 'Viva Voce', 'Progress Review'];
+  const evaluationTypes = ['Final Year Project', 'Thesis Defense', 'Viva Voce', 'First Stage Evaluation'];
   const roles = ['Supervisor', 'Examiner', 'Chairperson'];
 
   const openModal = (type, item = null) => {
@@ -197,13 +197,13 @@ const OfficeAssistantSystem = () => {
   const PeopleManagement = () => (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold text-burgundy-700">People Management</h2>
+        <h2 className="text-2xl font-bold text-burgundy-700">Teacher</h2>
         <button
           onClick={() => openModal('person')}
           className="bg-burgundy-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2 hover:bg-burgundy-800"
         >
           <Plus size={20} />
-          <span>Add Person</span>
+          <span>Add Teacher</span>
         </button>
       </div>
 
@@ -213,7 +213,7 @@ const OfficeAssistantSystem = () => {
             <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <input
               type="text"
-              placeholder="Search people..."
+              placeholder="Search teacher..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="pl-10 pr-4 py-2 w-full border rounded-lg focus:outline-none focus:border-burgundy-500"
@@ -412,10 +412,10 @@ const OfficeAssistantSystem = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <div className="h-8 w-8 rounded-full bg-burgundy-700 flex items-center justify-center">
-                <div className="text-yellow-400 text-sm font-bold">UTM</div>
+              <div className="h-8 w-8 p-5 rounded-full bg-burgundy-700 flex items-center justify-center">
+                <div className="text-yellow-400 text-sm font-bold">FSES</div>
               </div>
-              <h1 className="ml-3 text-xl font-bold text-burgundy-700">Office Assistant System</h1>
+              <h1 className="ml-3 text-xl font-bold text-burgundy-700">Office Assistant</h1>
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-gray-600">Welcome, Admin</span>
@@ -449,7 +449,7 @@ const OfficeAssistantSystem = () => {
               }`}
             >
               <Users size={16} />
-              <span>People</span>
+              <span>Teacher</span>
             </button>
           </nav>
         </div>
